@@ -10,7 +10,7 @@
       "defaultValue": null,
       "type": "SecureString"
     },
-    "dev_ne_dev_ne_sites_p12portal_name_integration_integration": {
+    "dev_ne_sites_p12portal_name_integration": {
       "defaultValue": "p12portal",
       "type": "String"
     },
@@ -2975,7 +2975,7 @@
     {
       "type": "Microsoft.Web/sites",
       "apiVersion": "2016-08-01",
-      "name": "[parameters('dev_ne_dev_ne_sites_p12portal_name_integration_integration')]",
+      "name": "[parameters('dev_ne_sites_p12portal_name_integration')]",
       "location": "North Europe",
       "dependsOn": [
         "[resourceId('Microsoft.Web/serverfarms', parameters('dev_ne_serverfarms_integration'))]"
@@ -2993,9 +2993,9 @@
             "hostType": "Standard"
           },
           {
+            "hostType": "Repository",
             "name": "[concat(parameters('dev_ne_sites_p12portal_name_integration'), '.scm.azurewebsites.net')]",
-            "sslState": "Disabled",
-            "hostType": "Repository"
+            "sslState": "Disabled"
           }
         ],
         "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('dev_ne_serverfarms_integration'))]",
