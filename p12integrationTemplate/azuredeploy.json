@@ -66,10 +66,6 @@
       "defaultValue": "menscategory-integration",
       "type": "String"
     },
-    "dev_ne_networkSecurityGroups_SFC_integration": {
-      "defaultValue": "Prod-SFC-NSG",
-      "type": "String"
-    },
     "dev_ne_serverfarms_integration": {
       "defaultValue": "p12integration-serviceplan",
       "type": "String"
@@ -243,11 +239,11 @@
       "type": "String"
     },
     "actiongroups_emal%20alok_externalid": {
-      "defaultValue": "/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/default-activitylogalerts/providers/microsoft.insights/actiongroups/emal%20alok",
+      "defaultValue": "/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/default-activitylogalerts/providers/microsoft.insights/actiongroups/emal%20alok",
       "type": "String"
     },
     "virtualNetworks_VNet_integration_externalid": {
-      "defaultValue": "/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration.cluster/providers/Microsoft.Network/virtualNetworks/VNet-integration",
+      "defaultValue": "/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/p12integration.cluster/providers/Microsoft.Network/virtualNetworks/VNet-integration",
       "type": "String"
     }
   },
@@ -315,7 +311,7 @@
       "name": "[parameters('dev_ne_components_p12portal_name_integration')]",
       "location": "northeurope",
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/Microsoft.Web/sites/p12portal": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/Microsoft.Web/sites/p12portal": "Resource"
       },
       "kind": "web",
       "properties": {
@@ -329,7 +325,7 @@
       "name": "[parameters('dev_ne_webtests_crmdynamcis_integration')]",
       "location": "northeurope",
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "SyntheticMonitorId": "[parameters('dev_ne_webtests_crmdynamcis_integration')]",
@@ -358,7 +354,7 @@
       "name": "[parameters('dev_ne_webtests_darwinapp_integration')]",
       "location": "northeurope",
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "SyntheticMonitorId": "[parameters('dev_ne_webtests_darwinapp_integration')]",
@@ -384,7 +380,7 @@
       "name": "[parameters('dev_ne_webtests_erp_integration_name')]",
       "location": "northeurope",
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "SyntheticMonitorId": "[parameters('dev_ne_webtests_erp_integration_name')]",
@@ -413,7 +409,7 @@
       "name": "[parameters('dev_ne_webtests_femalecategory_integration')]",
       "location": "northeurope",
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "SyntheticMonitorId": "[parameters('dev_ne_webtests_femalecategory_integration')]",
@@ -442,7 +438,7 @@
       "name": "[parameters('dev_ne_webtests_home_page_afound_integration')]",
       "location": "northeurope",
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "SyntheticMonitorId": "[parameters('dev_ne_webtests_home_page_afound_integration')]",
@@ -471,7 +467,7 @@
       "name": "[parameters('dev_ne_webtests_inriverfrontend_integration')]",
       "location": "northeurope",
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "SyntheticMonitorId": "[parameters('dev_ne_webtests_inriverfrontend_integration')]",
@@ -500,7 +496,7 @@
       "name": "[parameters('dev_ne_webtests_menscategory_integration')]",
       "location": "northeurope",
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "SyntheticMonitorId": "[parameters('dev_ne_webtests_menscategory_integration')]",
@@ -529,7 +525,7 @@
       "name": "[parameters('dev_ne_webtests_pimcontrolcentre_integration')]",
       "location": "northeurope",
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "SyntheticMonitorId": "[parameters('dev_ne_webtests_pimcontrolcentre_integration')]",
@@ -558,7 +554,7 @@
       "name": "[parameters('dev_ne_webtests_power_bi_integration_name')]",
       "location": "northeurope",
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "SyntheticMonitorId": "[parameters('dev_ne_webtests_power_bi_integration_name')]",
@@ -587,7 +583,7 @@
       "name": "[parameters('dev_webtests_preshopredirection_integration')]",
       "location": "northeurope",
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "SyntheticMonitorId": "[parameters('dev_webtests_preshopredirection_integration')]",
@@ -619,7 +615,7 @@
       "name": "[parameters('dev_ne_webtests_miraklfrontend_integration')]",
       "location": "northeurope",
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "SyntheticMonitorId": "[parameters('dev_ne_webtests_miraklfrontend_integration')]",
@@ -648,7 +644,7 @@
       "name": "[parameters('dev_ne_webtests_retail_server_ping_response_integratio')]",
       "location": "northeurope",
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "SyntheticMonitorId": "[parameters('dev_ne_webtests_retail_server_ping_response_integratio')]",
@@ -686,7 +682,7 @@
       "name": "[parameters('dev_ne_webtests_sellersproducts_integration')]",
       "location": "northeurope",
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "SyntheticMonitorId": "[parameters('dev_ne_webtests_sellersproducts_integration')]",
@@ -928,386 +924,6 @@
       }
     },
     {
-      "type": "Microsoft.Network/networkSecurityGroups",
-      "apiVersion": "2018-12-01",
-      "name": "[parameters('dev_ne_networkSecurityGroups_SFC_integration')]",
-      "location": "northeurope",
-      "tags": {
-        "Team": "Application Operation",
-        "Architect": "Karlsson Magnus",
-        "Description ": "NSG For Prod SFC"
-      },
-      "properties": {
-        "provisioningState": "Succeeded",
-        "resourceGuid": "10db49ad-1c47-41fb-becb-92891f71c75d",
-        "securityRules": [
-          {
-            "name": "AllowAdyen",
-            "etag": "W/\"4b6d70e7-ab42-4bff-8a80-e6ca34dbd944\"",
-            "properties": {
-              "provisioningState": "Succeeded",
-              "description": "AllowAdyen",
-              "protocol": "TCP",
-              "sourcePortRange": "*",
-              "destinationPortRange": "8443",
-              "sourceAddressPrefix": "*",
-              "destinationAddressPrefix": "VirtualNetwork",
-              "access": "Allow",
-              "priority": 200,
-              "direction": "Inbound",
-              "sourcePortRanges": [],
-              "destinationPortRanges": [],
-              "sourceAddressPrefixes": [],
-              "destinationAddressPrefixes": []
-            }
-          },
-          {
-            "name": "AllowMirakl",
-            "etag": "W/\"4b6d70e7-ab42-4bff-8a80-e6ca34dbd944\"",
-            "properties": {
-              "provisioningState": "Succeeded",
-              "description": "AllowMirakl",
-              "protocol": "TCP",
-              "sourcePortRange": "*",
-              "destinationPortRange": "8202",
-              "sourceAddressPrefix": "*",
-              "destinationAddressPrefix": "VirtualNetwork",
-              "access": "Allow",
-              "priority": 202,
-              "direction": "Inbound",
-              "sourcePortRanges": [],
-              "destinationPortRanges": [],
-              "sourceAddressPrefixes": [],
-              "destinationAddressPrefixes": []
-            }
-          },
-          {
-            "name": "AllowCrmEpiMirakl",
-            "etag": "W/\"4b6d70e7-ab42-4bff-8a80-e6ca34dbd944\"",
-            "properties": {
-              "provisioningState": "Succeeded",
-              "description": "AllowCrmEpiMirakl",
-              "protocol": "TCP",
-              "sourcePortRange": "*",
-              "destinationPortRange": "8201",
-              "sourceAddressPrefix": "*",
-              "destinationAddressPrefix": "VirtualNetwork",
-              "access": "Allow",
-              "priority": 204,
-              "direction": "Inbound",
-              "sourcePortRanges": [],
-              "destinationPortRanges": [],
-              "sourceAddressPrefixes": [],
-              "destinationAddressPrefixes": []
-            }
-          },
-          {
-            "name": "AllowEPI",
-            "etag": "W/\"4b6d70e7-ab42-4bff-8a80-e6ca34dbd944\"",
-            "properties": {
-              "provisioningState": "Succeeded",
-              "description": "AllowEPI",
-              "protocol": "TCP",
-              "sourcePortRange": "*",
-              "destinationPortRange": "8201",
-              "sourceAddressPrefix": "*",
-              "destinationAddressPrefix": "VirtualNetwork",
-              "access": "Allow",
-              "priority": 206,
-              "direction": "Inbound",
-              "sourcePortRanges": [],
-              "destinationPortRanges": [],
-              "sourceAddressPrefixes": [],
-              "destinationAddressPrefixes": []
-            }
-          },
-          {
-            "name": "AllowReplinishmentAPI",
-            "etag": "W/\"4b6d70e7-ab42-4bff-8a80-e6ca34dbd944\"",
-            "properties": {
-              "provisioningState": "Succeeded",
-              "description": "AllowReplinishmentAPI",
-              "protocol": "TCP",
-              "sourcePortRange": "*",
-              "destinationPortRange": "8401",
-              "sourceAddressPrefix": "*",
-              "destinationAddressPrefix": "VirtualNetwork",
-              "access": "Allow",
-              "priority": 208,
-              "direction": "Inbound",
-              "sourcePortRanges": [],
-              "destinationPortRanges": [],
-              "sourceAddressPrefixes": [],
-              "destinationAddressPrefixes": []
-            }
-          },
-          {
-            "name": "AllowOctopus",
-            "etag": "W/\"4b6d70e7-ab42-4bff-8a80-e6ca34dbd944\"",
-            "properties": {
-              "provisioningState": "Succeeded",
-              "description": "AllowOctopus",
-              "protocol": "TCP",
-              "sourcePortRange": "*",
-              "destinationPortRange": "19000",
-              "sourceAddressPrefix": "40.69.217.118",
-              "destinationAddressPrefix": "VirtualNetwork",
-              "access": "Allow",
-              "priority": 210,
-              "direction": "Inbound",
-              "sourcePortRanges": [],
-              "destinationPortRanges": [],
-              "sourceAddressPrefixes": [],
-              "destinationAddressPrefixes": []
-            }
-          },
-          {
-            "name": "RDP-Sweden-Wifi-Compute",
-            "etag": "W/\"4b6d70e7-ab42-4bff-8a80-e6ca34dbd944\"",
-            "properties": {
-              "provisioningState": "Succeeded",
-              "protocol": "TCP",
-              "sourcePortRange": "*",
-              "destinationPortRange": "3389-3393",
-              "sourceAddressPrefix": "194.103.63.165",
-              "destinationAddressPrefix": "VirtualNetwork",
-              "access": "Allow",
-              "priority": 212,
-              "direction": "Inbound",
-              "sourcePortRanges": [],
-              "destinationPortRanges": [],
-              "sourceAddressPrefixes": [],
-              "destinationAddressPrefixes": []
-            }
-          },
-          {
-            "name": "RDP-Sweden-Wifi-Transport",
-            "etag": "W/\"4b6d70e7-ab42-4bff-8a80-e6ca34dbd944\"",
-            "properties": {
-              "provisioningState": "Succeeded",
-              "description": "RDP-Sweden-Wifi-Transport",
-              "protocol": "TCP",
-              "sourcePortRange": "*",
-              "destinationPortRange": "3389-3393",
-              "sourceAddressPrefix": "194.103.63.165",
-              "destinationAddressPrefix": "VirtualNetwork",
-              "access": "Allow",
-              "priority": 214,
-              "direction": "Inbound",
-              "sourcePortRanges": [],
-              "destinationPortRanges": [],
-              "sourceAddressPrefixes": [],
-              "destinationAddressPrefixes": []
-            }
-          },
-          {
-            "name": "AllowSFCPortalClient",
-            "etag": "W/\"4b6d70e7-ab42-4bff-8a80-e6ca34dbd944\"",
-            "properties": {
-              "provisioningState": "Succeeded",
-              "description": "AllowSFCPortalClient",
-              "protocol": "*",
-              "sourcePortRange": "*",
-              "destinationPortRange": "19080",
-              "sourceAddressPrefix": "*",
-              "destinationAddressPrefix": "VirtualNetwork",
-              "access": "Allow",
-              "priority": 216,
-              "direction": "Inbound",
-              "sourcePortRanges": [],
-              "destinationPortRanges": [],
-              "sourceAddressPrefixes": [],
-              "destinationAddressPrefixes": []
-            }
-          },
-          {
-            "name": "AllowEmpherialPorts",
-            "etag": "W/\"4b6d70e7-ab42-4bff-8a80-e6ca34dbd944\"",
-            "properties": {
-              "provisioningState": "Succeeded",
-              "protocol": "*",
-              "sourcePortRange": "*",
-              "destinationPortRange": "49152-65534",
-              "sourceAddressPrefix": "VirtualNetwork",
-              "destinationAddressPrefix": "*",
-              "access": "Allow",
-              "priority": 218,
-              "direction": "Inbound",
-              "sourcePortRanges": [],
-              "destinationPortRanges": [],
-              "sourceAddressPrefixes": [],
-              "destinationAddressPrefixes": []
-            }
-          },
-          {
-            "name": "AllowSFCPorts",
-            "etag": "W/\"4b6d70e7-ab42-4bff-8a80-e6ca34dbd944\"",
-            "properties": {
-              "provisioningState": "Succeeded",
-              "protocol": "*",
-              "sourcePortRange": "*",
-              "destinationPortRange": "1025-1027",
-              "sourceAddressPrefix": "VirtualNetwork",
-              "destinationAddressPrefix": "*",
-              "access": "Allow",
-              "priority": 220,
-              "direction": "Inbound",
-              "sourcePortRanges": [],
-              "destinationPortRanges": [],
-              "sourceAddressPrefixes": [],
-              "destinationAddressPrefixes": []
-            }
-          },
-          {
-            "name": "AllowRegSRFP",
-            "etag": "W/\"4b6d70e7-ab42-4bff-8a80-e6ca34dbd944\"",
-            "properties": {
-              "provisioningState": "Succeeded",
-              "description": "AllowRegSRFP",
-              "protocol": "*",
-              "sourcePortRange": "*",
-              "destinationPortRange": "*",
-              "sourceAddressPrefix": "*",
-              "access": "Allow",
-              "priority": 200,
-              "direction": "Outbound",
-              "sourcePortRanges": [],
-              "destinationPortRanges": [],
-              "sourceAddressPrefixes": [],
-              "destinationAddressPrefixes": [
-                "137.116.252.9",
-                "40.113.23.157",
-                "40.113.88.37"
-              ],
-              "destinationAddressPrefix": "[parameters('dev_ne_networkSecurityGroups_SFC_NSG_destinationAddressPrefix_interation')]"
-            }
-          }
-        ],
-        "defaultSecurityRules": [
-          {
-            "name": "AllowVnetInBound",
-            "etag": "W/\"4b6d70e7-ab42-4bff-8a80-e6ca34dbd944\"",
-            "properties": {
-              "provisioningState": "Succeeded",
-              "description": "Allow inbound traffic from all VMs in VNET",
-              "protocol": "*",
-              "sourcePortRange": "*",
-              "destinationPortRange": "*",
-              "sourceAddressPrefix": "VirtualNetwork",
-              "destinationAddressPrefix": "VirtualNetwork",
-              "access": "Allow",
-              "priority": 65000,
-              "direction": "Inbound",
-              "sourcePortRanges": [],
-              "destinationPortRanges": [],
-              "sourceAddressPrefixes": [],
-              "destinationAddressPrefixes": []
-            }
-          },
-          {
-            "name": "AllowAzureLoadBalancerInBound",
-            "etag": "W/\"4b6d70e7-ab42-4bff-8a80-e6ca34dbd944\"",
-            "properties": {
-              "provisioningState": "Succeeded",
-              "description": "Allow inbound traffic from azure load balancer",
-              "protocol": "*",
-              "sourcePortRange": "*",
-              "destinationPortRange": "*",
-              "sourceAddressPrefix": "AzureLoadBalancer",
-              "destinationAddressPrefix": "*",
-              "access": "Allow",
-              "priority": 65001,
-              "direction": "Inbound",
-              "sourcePortRanges": [],
-              "destinationPortRanges": [],
-              "sourceAddressPrefixes": [],
-              "destinationAddressPrefixes": []
-            }
-          },
-          {
-            "name": "DenyAllInBound",
-            "etag": "W/\"4b6d70e7-ab42-4bff-8a80-e6ca34dbd944\"",
-            "properties": {
-              "provisioningState": "Succeeded",
-              "description": "Deny all inbound traffic",
-              "protocol": "*",
-              "sourcePortRange": "*",
-              "destinationPortRange": "*",
-              "sourceAddressPrefix": "*",
-              "destinationAddressPrefix": "*",
-              "access": "Deny",
-              "priority": 65500,
-              "direction": "Inbound",
-              "sourcePortRanges": [],
-              "destinationPortRanges": [],
-              "sourceAddressPrefixes": [],
-              "destinationAddressPrefixes": []
-            }
-          },
-          {
-            "name": "AllowVnetOutBound",
-            "etag": "W/\"4b6d70e7-ab42-4bff-8a80-e6ca34dbd944\"",
-            "properties": {
-              "provisioningState": "Succeeded",
-              "description": "Allow outbound traffic from all VMs to all VMs in VNET",
-              "protocol": "*",
-              "sourcePortRange": "*",
-              "destinationPortRange": "*",
-              "sourceAddressPrefix": "VirtualNetwork",
-              "destinationAddressPrefix": "VirtualNetwork",
-              "access": "Allow",
-              "priority": 65000,
-              "direction": "Outbound",
-              "sourcePortRanges": [],
-              "destinationPortRanges": [],
-              "sourceAddressPrefixes": [],
-              "destinationAddressPrefixes": []
-            }
-          },
-          {
-            "name": "AllowInternetOutBound",
-            "etag": "W/\"4b6d70e7-ab42-4bff-8a80-e6ca34dbd944\"",
-            "properties": {
-              "provisioningState": "Succeeded",
-              "description": "Allow outbound traffic from all VMs to Internet",
-              "protocol": "*",
-              "sourcePortRange": "*",
-              "destinationPortRange": "*",
-              "sourceAddressPrefix": "*",
-              "destinationAddressPrefix": "Internet",
-              "access": "Allow",
-              "priority": 65001,
-              "direction": "Outbound",
-              "sourcePortRanges": [],
-              "destinationPortRanges": [],
-              "sourceAddressPrefixes": [],
-              "destinationAddressPrefixes": []
-            }
-          },
-          {
-            "name": "DenyAllOutBound",
-            "etag": "W/\"4b6d70e7-ab42-4bff-8a80-e6ca34dbd944\"",
-            "properties": {
-              "provisioningState": "Succeeded",
-              "description": "Deny all outbound traffic",
-              "protocol": "*",
-              "sourcePortRange": "*",
-              "destinationPortRange": "*",
-              "sourceAddressPrefix": "*",
-              "destinationAddressPrefix": "*",
-              "access": "Deny",
-              "priority": 65500,
-              "direction": "Outbound",
-              "sourcePortRanges": [],
-              "destinationPortRanges": [],
-              "sourceAddressPrefixes": [],
-              "destinationAddressPrefixes": []
-            }
-          }
-        ]
-      }
-    },
-    {
       "type": "Microsoft.ServiceBus/namespaces",
       "apiVersion": "2017-04-01",
       "name": "[parameters('dev_ne_namespaces_p12integration_name')]",
@@ -1318,7 +934,7 @@
       },
       "properties": {
         "provisioningState": "Succeeded",
-        "metricId": "[concat('8367b146-8d23-4b7f-88b3-4bd0a84354d3:', parameters('dev_ne_namespaces_p12integration_name'))]",
+        "metricId": "[concat('08da9fe5-1ded-4e2c-90d5-8e2b52a0715c:', parameters('dev_ne_namespaces_p12integration_name'))]",
         "createdAt": "2017-12-07T12:13:15.22Z",
         "updatedAt": "2017-12-07T12:15:01.023Z",
         "serviceBusEndpoint": "[concat('https://', parameters('dev_ne_namespaces_p12integration_name'), '.servicebus.windows.net:443/')]",
@@ -1529,7 +1145,7 @@
       ],
       "properties": {
         "scopes": [
-          "/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3"
+          "/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c"
         ],
         "condition": {
           "allOf": [
@@ -1564,8 +1180,8 @@
         "[resourceId('microsoft.insights/webtests', parameters('dev_ne_webtests_crmdynamcis_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/components/integration": "Resource",
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/webtests/crmdynamcis-integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource",
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/webtests/crmdynamcis-integration": "Resource"
       },
       "properties": {
         "name": "[parameters('dev_ne_alertrules_crmdynamcis_integration_80e4eb21_c8ab_433e_9604_ac428bbbfd52')]",
@@ -1598,8 +1214,8 @@
         "[resourceId('microsoft.insights/webtests', parameters('dev_ne_webtests_darwinapp_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/components/integration": "Resource",
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/webtests/darwinapp-integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource",
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/webtests/darwinapp-integration": "Resource"
       },
       "properties": {
         "name": "[parameters('dev_ne_alertrules_darwinapp_integration_bcb74a18_a509_445b_bedc_29fe6240114c_integration')]",
@@ -1632,8 +1248,8 @@
         "[resourceId('microsoft.insights/webtests', parameters('dev_ne_webtests_erp_integration_name'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/components/integration": "Resource",
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/webtests/erp-integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource",
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/webtests/erp-integration": "Resource"
       },
       "properties": {
         "name": "[parameters('dev_ne_alertrules_erp_integration_6d533349_6021_4848_b104_8691cbcfce6e_integration')]",
@@ -1666,7 +1282,7 @@
         "[resourceId('microsoft.insights/components', parameters('dev_ne_components_integration_name_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "name": "[parameters('dev_ne_alertrules_Failure_Anomalies_integration')]",
@@ -1700,8 +1316,8 @@
         "[resourceId('microsoft.insights/webtests', parameters('dev_ne_webtests_femalecategory_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/components/integration": "Resource",
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/webtests/femalecategory-integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource",
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/webtests/femalecategory-integration": "Resource"
       },
       "properties": {
         "name": "[parameters('dev_ne_alertrules_femalecategory_integration_6a3b585f_5162_4bc4_bacc_d83a893ed6df_integration')]",
@@ -1734,8 +1350,8 @@
         "[resourceId('microsoft.insights/webtests', parameters('dev_ne_webtests_home_page_afound_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/components/integration": "Resource",
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/webtests/home-page-afound-integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource",
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/webtests/home-page-afound-integration": "Resource"
       },
       "properties": {
         "name": "[parameters('dev_ne_alertrules_home_page_afound_integration_9015ff5d_a90a_47cd_9631_a703ab82754e_integration')]",
@@ -1768,8 +1384,8 @@
         "[resourceId('microsoft.insights/webtests', parameters('dev_ne_webtests_inriverfrontend_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/components/integration": "Resource",
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/webtests/inriverfrontend-integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource",
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/webtests/inriverfrontend-integration": "Resource"
       },
       "properties": {
         "name": "[parameters('dev_ne_alertrules_inriverfrontend_integration_28b8c3db_4030_4abb_b9df_6927c8e92d10_integration')]",
@@ -1802,8 +1418,8 @@
         "[resourceId('microsoft.insights/webtests', parameters('dev_ne_webtests_menscategory_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/components/integration": "Resource",
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/webtests/menscategory-integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource",
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/webtests/menscategory-integration": "Resource"
       },
       "properties": {
         "name": "[parameters('dev_ne_alertrules_menscategory_integration_4e4e4d81_af6a_405a_a0b2_ab85cfcce4a0')]",
@@ -1836,8 +1452,8 @@
         "[resourceId('microsoft.insights/webtests', parameters('dev_ne_webtests_pimcontrolcentre_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/components/integration": "Resource",
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/webtests/pimcontrolcentre-integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource",
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/webtests/pimcontrolcentre-integration": "Resource"
       },
       "properties": {
         "name": "[parameters('dev_ne_alertrules_pimcontrolcentre_integration_28d6b607_f101_4012_b8f7_67f0e2425c03_integration')]",
@@ -1870,8 +1486,8 @@
         "[resourceId('microsoft.insights/webtests', parameters('dev_ne_webtests_power_bi_integration_name'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/components/integration": "Resource",
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/webtests/power bi-integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource",
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/webtests/power bi-integration": "Resource"
       },
       "properties": {
         "name": "[parameters('dev_ne_alertrules_power_bi_integration_e632440b_c006_4d40_86d4_033b1d3fb887_integration')]",
@@ -1904,8 +1520,8 @@
         "[resourceId('microsoft.insights/webtests', parameters('dev_webtests_preshopredirection_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/components/integration": "Resource",
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/webtests/preshopredirection-integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource",
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/webtests/preshopredirection-integration": "Resource"
       },
       "properties": {
         "name": "[parameters('dev_ne_alertrules_preshopredirection_integration_376f57e7_9aff_43c6_b09f_37ddc4c92728_integration')]",
@@ -1938,8 +1554,8 @@
         "[resourceId('microsoft.insights/webtests', parameters('dev_ne_webtests_miraklfrontend_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/components/integration": "Resource",
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/webtests/prodmiraklfrontend-integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource",
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/webtests/prodmiraklfrontend-integration": "Resource"
       },
       "properties": {
         "name": "[parameters('dev_ne_alertrules_prodmiraklfrontend_integration_e0802d05_ff1d_419e_9be4_270024365369_integration')]",
@@ -1972,8 +1588,8 @@
         "[resourceId('microsoft.insights/webtests', parameters('dev_ne_webtests_retail_server_ping_response_integratio'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/components/integration": "Resource",
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/webtests/retail server ping response-integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource",
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/webtests/retail server ping response-integration": "Resource"
       },
       "properties": {
         "name": "[parameters('dev_ne_alertrules_retail_server_ping_response_integration_afd55971_5e6f_4a82_9ca0_ea220899289b_integration')]",
@@ -2006,8 +1622,8 @@
         "[resourceId('microsoft.insights/webtests', parameters('dev_ne_webtests_sellersproducts_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/components/integration": "Resource",
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/microsoft.insights/webtests/sellersproducts-integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource",
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/webtests/sellersproducts-integration": "Resource"
       },
       "properties": {
         "name": "[parameters('alertrules_sellersproducts_integration_754f2824_cb2e_47fe_8ad8_fea8ebcc8954_name')]",
@@ -2040,7 +1656,7 @@
         "[resourceId('microsoft.insights/components', parameters('dev_ne_components_integration_name_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "description": "This Alert Triggers when afound Order count is equal to 0 . \n",
@@ -2069,7 +1685,7 @@
         "[resourceId('microsoft.insights/components', parameters('dev_ne_components_integration_name_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "description": "[concat(parameters('dev_ne_scheduledqueryrules_Customer_KPI_Bukl_Upload_to_CRM_from_BI_integration'), '. \n\nThis alert is to verify if the customers info is reaching to CRM from BI . \nIf any failure exists , kindly report to integration DEV team on the same . \n')]",
@@ -2098,7 +1714,7 @@
         "[resourceId('microsoft.insights/components', parameters('dev_ne_components_integration_name_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "description": "This job Monitors the number of records that it gets processed during customer KPI job run . ",
@@ -2127,7 +1743,7 @@
         "[resourceId('microsoft.insights/components', parameters('dev_ne_components_integration_name_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "description": "Kindly request you to check the error mentioned below and check the call stack by which we cna get the exact service which is failing with DB connectivitiy to Staging DB . \n\nKindly check the connectivity in staging DB and restart the service to have the connectivity gets estrablished. ",
@@ -2156,7 +1772,7 @@
         "[resourceId('microsoft.insights/components', parameters('dev_ne_components_integration_name_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "description": "Kindly check the App insight logs for more view on the DHL FTP Service which is getting failed ",
@@ -2185,7 +1801,7 @@
         "[resourceId('microsoft.insights/components', parameters('dev_ne_components_integration_name_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "description": "Packing Slip status of the orders have not been received from ERP . \nAll the orders in Mirakl would be with  Shipping in Progress .  Kindly check the orders which are placed two days before and see if they all are in \"Shipping in Progress\".  If yes then check the job \"Finanace : Order Invoice( Ecom)\" in ERP and see if the job has been executed in latest . \n",
@@ -2214,7 +1830,7 @@
         "[resourceId('microsoft.insights/components', parameters('dev_ne_components_integration_name_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "description": "Kindly check the Media import service and storage queue \"productimportmedia\" and its corresponding deadletter messages as well . \n\nIssue could be due to Bad urls causing the entire service to be hung . \n",
@@ -2243,7 +1859,7 @@
         "[resourceId('microsoft.insights/components', parameters('dev_ne_components_integration_name_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "description": "This alert is to check if payment notifications have been received from Adyen.\n\nKindly login to Adyen and check if the Server Communication is healthy at Adyen END . \n\nRegards,\nAfound Support Desk ",
@@ -2272,7 +1888,7 @@
         "[resourceId('microsoft.insights/components', parameters('dev_ne_components_integration_name_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "description": "This alert is to check if Payment events are being sent to Adyen from Integration . \nCheck the Service bus queue \"Payment Events\" and see if there are more messages being piled up .. \n\nKindly check and restart the payment service within orders if the count is 0 for the past three alerts .  \n\nRegards,\nAfound support desk ",
@@ -2301,7 +1917,7 @@
         "[resourceId('microsoft.insights/components', parameters('dev_ne_components_integration_name_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "description": "There are some orders retrying from retailorders service bus queue to ERP . \nThis will cause issues with existing valid orders .  Kindly request you to have a look and update to 3rd line . \n\n",
@@ -2330,7 +1946,7 @@
         "[resourceId('microsoft.insights/components', parameters('dev_ne_components_integration_name_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "description": "PIM Import Service is not working . Please check the Application Insight logs.",
@@ -2359,7 +1975,7 @@
         "[resourceId('microsoft.insights/components', parameters('dev_ne_components_integration_name_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "description": "Kindly check  the outer Message and act accordingly . \nMaximum queue limit has been reached . Kindly take corrective action ",
@@ -2388,7 +2004,7 @@
         "[resourceId('microsoft.insights/components', parameters('dev_ne_components_integration_name_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "description": "HI  , \n\nKindly check the service bus queue status in portal and check in App Insights with the below log to determine the exact queue for which the issue has been occurred with  ",
@@ -2417,7 +2033,7 @@
         "[resourceId('microsoft.insights/components', parameters('dev_ne_components_integration_name_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "description": "This alert is to check if customers from erp notification are reaching to CRM . Count Exists in the below result",
@@ -2446,7 +2062,7 @@
         "[resourceId('microsoft.insights/components', parameters('dev_ne_components_integration_name_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "description": "Kindly check the below orders . These orders are not getting proessed as expected . \nThis includes (Refunds not happening , Orders getting stuck in Debit In progress and a valid case in which orders getting updated in Mirakl with auto options)\n\nKindly check the order in mirakl and adyen and act accrodingly . \n\nRegards,\nAfound Support Desk ",
@@ -2475,7 +2091,7 @@
         "[resourceId('microsoft.insights/components', parameters('dev_ne_components_integration_name_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "description": "This Alert is to check  if orders  are reaching to  ERP from Integration Service BUS . \n\nCheck the Order statun in Mirakl and in ERP , if orders doesnt exists in ERP then it should be issue with the ERP service which reads the order from Service Bus and send the order to ERP . \n\nERP Service is not responding fine as required .  kindly check the health of ERP service . \n\nRegards,\nAfound Support Desk ",
@@ -2504,7 +2120,7 @@
         "[resourceId('microsoft.insights/components', parameters('dev_ne_components_integration_name_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "description": "There are some orders which are stuck in \"DEBIT IN PROGRESS\".\nKindly take necessary action on the same. \n\nPlease find below the order details . \n\nRegards,\nAfound Support Desk",
@@ -2533,7 +2149,7 @@
         "[resourceId('microsoft.insights/components', parameters('dev_ne_components_integration_name_integration'))]"
       ],
       "tags": {
-        "hidden-link:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourceGroups/p12integration/providers/microsoft.insights/components/integration": "Resource"
+        "hidden-link:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/microsoft.insights/components/integration": "Resource"
       },
       "properties": {
         "description": "Kindly request you to check the order list in the below result set and check the orders status in Adyen and in Mirakl . \nIf the order doesnt exists in Mirakl , kindly requets you to proceed with the cancellation. \n\nKindly request you to proceed with the activity with a time span of 24h from the time alert has beenn received.\n\nIf Authorization is already cancelled , kindly ignore\n",
@@ -2600,295 +2216,6 @@
         "attributes": {
           "enabled": true
         }
-      }
-    },
-    {
-      "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-      "apiVersion": "2018-12-01",
-      "name": "[concat(parameters('dev_ne_networkSecurityGroups_SFC_integration'), '/AllowAdyen')]",
-      "dependsOn": [
-        "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('dev_ne_networkSecurityGroups_SFC_integration'))]"
-      ],
-      "properties": {
-        "provisioningState": "Succeeded",
-        "description": "AllowAdyen",
-        "protocol": "TCP",
-        "sourcePortRange": "*",
-        "destinationPortRange": "8443",
-        "sourceAddressPrefix": "*",
-        "destinationAddressPrefix": "VirtualNetwork",
-        "access": "Allow",
-        "priority": 200,
-        "direction": "Inbound",
-        "sourcePortRanges": [],
-        "destinationPortRanges": [],
-        "sourceAddressPrefixes": [],
-        "destinationAddressPrefixes": []
-      }
-    },
-    {
-      "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-      "apiVersion": "2018-12-01",
-      "name": "[concat(parameters('dev_ne_networkSecurityGroups_SFC_integration'), '/AllowCrmEpiMirakl')]",
-      "dependsOn": [
-        "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('dev_ne_networkSecurityGroups_SFC_integration'))]"
-      ],
-      "properties": {
-        "provisioningState": "Succeeded",
-        "description": "AllowCrmEpiMirakl",
-        "protocol": "TCP",
-        "sourcePortRange": "*",
-        "destinationPortRange": "8201",
-        "sourceAddressPrefix": "*",
-        "destinationAddressPrefix": "VirtualNetwork",
-        "access": "Allow",
-        "priority": 204,
-        "direction": "Inbound",
-        "sourcePortRanges": [],
-        "destinationPortRanges": [],
-        "sourceAddressPrefixes": [],
-        "destinationAddressPrefixes": []
-      }
-    },
-    {
-      "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-      "apiVersion": "2018-12-01",
-      "name": "[concat(parameters('dev_ne_networkSecurityGroups_SFC_integration'), '/AllowEmpherialPorts')]",
-      "dependsOn": [
-        "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('dev_ne_networkSecurityGroups_SFC_integration'))]"
-      ],
-      "properties": {
-        "provisioningState": "Succeeded",
-        "protocol": "*",
-        "sourcePortRange": "*",
-        "destinationPortRange": "49152-65534",
-        "sourceAddressPrefix": "VirtualNetwork",
-        "destinationAddressPrefix": "*",
-        "access": "Allow",
-        "priority": 218,
-        "direction": "Inbound",
-        "sourcePortRanges": [],
-        "destinationPortRanges": [],
-        "sourceAddressPrefixes": [],
-        "destinationAddressPrefixes": []
-      }
-    },
-    {
-      "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-      "apiVersion": "2018-12-01",
-      "name": "[concat(parameters('dev_ne_networkSecurityGroups_SFC_integration'), '/AllowEPI')]",
-      "dependsOn": [
-        "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('dev_ne_networkSecurityGroups_SFC_integration'))]"
-      ],
-      "properties": {
-        "provisioningState": "Succeeded",
-        "description": "AllowEPI",
-        "protocol": "TCP",
-        "sourcePortRange": "*",
-        "destinationPortRange": "8201",
-        "sourceAddressPrefix": "*",
-        "destinationAddressPrefix": "VirtualNetwork",
-        "access": "Allow",
-        "priority": 206,
-        "direction": "Inbound",
-        "sourcePortRanges": [],
-        "destinationPortRanges": [],
-        "sourceAddressPrefixes": [],
-        "destinationAddressPrefixes": []
-      }
-    },
-    {
-      "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-      "apiVersion": "2018-12-01",
-      "name": "[concat(parameters('dev_ne_networkSecurityGroups_SFC_integration'), '/AllowMirakl')]",
-      "dependsOn": [
-        "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('dev_ne_networkSecurityGroups_SFC_integration'))]"
-      ],
-      "properties": {
-        "provisioningState": "Succeeded",
-        "description": "AllowMirakl",
-        "protocol": "TCP",
-        "sourcePortRange": "*",
-        "destinationPortRange": "8202",
-        "sourceAddressPrefix": "*",
-        "destinationAddressPrefix": "VirtualNetwork",
-        "access": "Allow",
-        "priority": 202,
-        "direction": "Inbound",
-        "sourcePortRanges": [],
-        "destinationPortRanges": [],
-        "sourceAddressPrefixes": [],
-        "destinationAddressPrefixes": []
-      }
-    },
-    {
-      "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-      "apiVersion": "2018-12-01",
-      "name": "[concat(parameters('dev_ne_networkSecurityGroups_SFC_integration'), '/AllowOctopus')]",
-      "dependsOn": [
-        "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('dev_ne_networkSecurityGroups_SFC_integration'))]"
-      ],
-      "properties": {
-        "provisioningState": "Succeeded",
-        "description": "AllowOctopus",
-        "protocol": "TCP",
-        "sourcePortRange": "*",
-        "destinationPortRange": "19000",
-        "sourceAddressPrefix": "40.69.217.118",
-        "destinationAddressPrefix": "VirtualNetwork",
-        "access": "Allow",
-        "priority": 210,
-        "direction": "Inbound",
-        "sourcePortRanges": [],
-        "destinationPortRanges": [],
-        "sourceAddressPrefixes": [],
-        "destinationAddressPrefixes": []
-      }
-    },
-    {
-      "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-      "apiVersion": "2018-12-01",
-      "name": "[concat(parameters('dev_ne_networkSecurityGroups_SFC_integration'), '/AllowRegSRFP')]",
-      "dependsOn": [
-        "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('dev_ne_networkSecurityGroups_SFC_integration'))]"
-      ],
-      "properties": {
-        "provisioningState": "Succeeded",
-        "description": "AllowRegSRFP",
-        "protocol": "*",
-        "sourcePortRange": "*",
-        "destinationPortRange": "*",
-        "sourceAddressPrefix": "*",
-        "access": "Allow",
-        "priority": 200,
-        "direction": "Outbound",
-        "sourcePortRanges": [],
-        "destinationPortRanges": [],
-        "sourceAddressPrefixes": [],
-        "destinationAddressPrefixes": [
-          "137.116.252.9",
-          "40.113.23.157",
-          "40.113.88.37"
-        ],
-        "destinationAddressPrefix": "[parameters('dev_ne_securityRules_AllowRegSRFP_destinationAddressPrefix_integration')]"
-      }
-    },
-    {
-      "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-      "apiVersion": "2018-12-01",
-      "name": "[concat(parameters('dev_ne_networkSecurityGroups_SFC_integration'), '/AllowReplinishmentAPI')]",
-      "dependsOn": [
-        "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('dev_ne_networkSecurityGroups_SFC_integration'))]"
-      ],
-      "properties": {
-        "provisioningState": "Succeeded",
-        "description": "AllowReplinishmentAPI",
-        "protocol": "TCP",
-        "sourcePortRange": "*",
-        "destinationPortRange": "8401",
-        "sourceAddressPrefix": "*",
-        "destinationAddressPrefix": "VirtualNetwork",
-        "access": "Allow",
-        "priority": 208,
-        "direction": "Inbound",
-        "sourcePortRanges": [],
-        "destinationPortRanges": [],
-        "sourceAddressPrefixes": [],
-        "destinationAddressPrefixes": []
-      }
-    },
-    {
-      "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-      "apiVersion": "2018-12-01",
-      "name": "[concat(parameters('dev_ne_networkSecurityGroups_SFC_integration'), '/AllowSFCPortalClient')]",
-      "dependsOn": [
-        "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('dev_ne_networkSecurityGroups_SFC_integration'))]"
-      ],
-      "properties": {
-        "provisioningState": "Succeeded",
-        "description": "AllowSFCPortalClient",
-        "protocol": "*",
-        "sourcePortRange": "*",
-        "destinationPortRange": "19080",
-        "sourceAddressPrefix": "*",
-        "destinationAddressPrefix": "VirtualNetwork",
-        "access": "Allow",
-        "priority": 216,
-        "direction": "Inbound",
-        "sourcePortRanges": [],
-        "destinationPortRanges": [],
-        "sourceAddressPrefixes": [],
-        "destinationAddressPrefixes": []
-      }
-    },
-    {
-      "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-      "apiVersion": "2018-12-01",
-      "name": "[concat(parameters('dev_ne_networkSecurityGroups_SFC_integration'), '/AllowSFCPorts')]",
-      "dependsOn": [
-        "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('dev_ne_networkSecurityGroups_SFC_integration'))]"
-      ],
-      "properties": {
-        "provisioningState": "Succeeded",
-        "protocol": "*",
-        "sourcePortRange": "*",
-        "destinationPortRange": "1025-1027",
-        "sourceAddressPrefix": "VirtualNetwork",
-        "destinationAddressPrefix": "*",
-        "access": "Allow",
-        "priority": 220,
-        "direction": "Inbound",
-        "sourcePortRanges": [],
-        "destinationPortRanges": [],
-        "sourceAddressPrefixes": [],
-        "destinationAddressPrefixes": []
-      }
-    },
-    {
-      "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-      "apiVersion": "2018-12-01",
-      "name": "[concat(parameters('dev_ne_networkSecurityGroups_SFC_integration'), '/RDP-Sweden-Wifi-Compute')]",
-      "dependsOn": [
-        "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('dev_ne_networkSecurityGroups_SFC_integration'))]"
-      ],
-      "properties": {
-        "provisioningState": "Succeeded",
-        "protocol": "TCP",
-        "sourcePortRange": "*",
-        "destinationPortRange": "3389-3393",
-        "sourceAddressPrefix": "194.103.63.165",
-        "destinationAddressPrefix": "VirtualNetwork",
-        "access": "Allow",
-        "priority": 212,
-        "direction": "Inbound",
-        "sourcePortRanges": [],
-        "destinationPortRanges": [],
-        "sourceAddressPrefixes": [],
-        "destinationAddressPrefixes": []
-      }
-    },
-    {
-      "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-      "apiVersion": "2018-12-01",
-      "name": "[concat(parameters('dev_ne_networkSecurityGroups_SFC_integration'), '/RDP-Sweden-Wifi-Transport')]",
-      "dependsOn": [
-        "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('dev_ne_networkSecurityGroups_SFC_integration'))]"
-      ],
-      "properties": {
-        "provisioningState": "Succeeded",
-        "description": "RDP-Sweden-Wifi-Transport",
-        "protocol": "TCP",
-        "sourcePortRange": "*",
-        "destinationPortRange": "3389-3393",
-        "sourceAddressPrefix": "194.103.63.165",
-        "destinationAddressPrefix": "VirtualNetwork",
-        "access": "Allow",
-        "priority": 214,
-        "direction": "Inbound",
-        "sourcePortRanges": [],
-        "destinationPortRanges": [],
-        "sourceAddressPrefixes": [],
-        "destinationAddressPrefixes": []
       }
     },
     {
@@ -3654,7 +2981,7 @@
         "[resourceId('Microsoft.Web/serverfarms', parameters('dev_ne_serverfarms_integration'))]"
       ],
       "tags": {
-        "hidden-related:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/Microsoft.Web/serverfarms/p12integration-serviceplan": "empty"
+        "hidden-related:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/Microsoft.Web/serverfarms/p12integration-serviceplan": "empty"
       },
       "kind": "app",
       "properties": {
@@ -3691,7 +3018,7 @@
         "[resourceId('Microsoft.Web/sites', parameters('dev_ne_sites_p12portal_name_integration'))]"
       ],
       "tags": {
-        "hidden-related:/subscriptions/8367b146-8d23-4b7f-88b3-4bd0a84354d3/resourcegroups/p12integration/providers/Microsoft.Web/serverfarms/p12integration-serviceplan": "empty"
+        "hidden-related:/subscriptions/08da9fe5-1ded-4e2c-90d5-8e2b52a0715c/resourceGroups/dev_ne_p12integration/providers/Microsoft.Web/serverfarms/p12integration-serviceplan": "empty"
       },
       "properties": {
         "numberOfWorkers": 1,
@@ -4426,7 +3753,5 @@
         }
       }
     }
-  ],
-  "outputs": {
-  }
+  ]
 }
