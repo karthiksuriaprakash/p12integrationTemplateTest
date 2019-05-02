@@ -2,14 +2,6 @@
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "dev_ne_networkSecurityGroups_SFC_NSG_destinationAddressPrefix_interation": {
-      "defaultValue": null,
-      "type": "SecureString"
-    },
-    "dev_ne_securityRules_AllowRegSRFP_destinationAddressPrefix_integration": {
-      "defaultValue": null,
-      "type": "SecureString"
-    },
     "dev_ne_sites_p12portal_name_integration": {
       "defaultValue": "p12portal",
       "type": "String"
@@ -47,7 +39,7 @@
       "type": "String"
     },
     "dev_ne_storageAccounts_integration": {
-      "defaultValue": "p12integration",
+      "defaultValue": "dev_ne_storage_integration",
       "type": "String"
     },
     "dev_ne_webtests_darwinapp_integration": {
